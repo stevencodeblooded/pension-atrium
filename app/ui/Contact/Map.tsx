@@ -1,6 +1,6 @@
 const Map = () => {
   return (
-    <div className="w-1/2 xl:w-full">
+    <div className="w-1/2 xl:w-full sm:hidden">
         <iframe 
             id="inlineFrameExample"
             title="Inline Frame Example"

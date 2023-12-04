@@ -2,7 +2,7 @@ const ContactDetails = () => {
   return (
     <div>
       <h2 className="text-xl font-medium mb-3 text-blue-900">Contact Details</h2>
-      <div className="flex gap-2  w-full">
+      <div className="flex gap-4 w-full">
         <ul className="w-1/2 ">
           <h3 className="mb-2 font-semibold">Pension Atrium</h3>
           <li>Žižkova 504</li>

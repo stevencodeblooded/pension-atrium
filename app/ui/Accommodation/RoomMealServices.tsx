@@ -41,7 +41,7 @@ const RoomMealServices = () => {
 
         <div className="flex gap-4 sm:flex-col">
 
-          <div className=" w-1/3 rounded-lg p-6 bg-blue-50 hover:bg-blue-100 lg:w-1/2 sm:w-full">
+          <div className=" rounded-lg p-6 bg-blue-50 hover:bg-blue-100 lg:w-1/2 sm:w-full">
               <h2 className="text-lg text-center font-semibold mb-4 text-blue-900">Meal</h2>
               <div>
                 <p className="text-sm text-center mb-3">Only for group consisting of 20 people or
@@ -55,7 +55,7 @@ const RoomMealServices = () => {
               </div>
           </div>
 
-          <div className=" w-1/3 rounded-lg p-6 bg-blue-50 hover:bg-blue-100 lg:w-1/2 sm:w-full">
+          <div className="  rounded-lg p-6 bg-blue-50 hover:bg-blue-100 lg:w-1/2 sm:w-full">
               <h2 className="text-lg text-center font-semibold mb-4 text-blue-900">Other Services</h2>
               <div className="flex flex-col gap-5">
                 <section className="flex gap-5">
