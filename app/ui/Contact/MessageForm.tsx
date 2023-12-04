@@ -1,6 +1,6 @@
 const MessageForm = () => {
   return (
-    <div>
+    <div className="">
         <h2 className="text-xl font-medium mb-3 text-blue-900">Leave Us A Message</h2>
         <form action="" className="flex flex-col gap-2">
             <section className="flex flex-col gap-1">

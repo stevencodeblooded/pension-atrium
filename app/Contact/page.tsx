@@ -7,11 +7,11 @@ const Contact = () => {
   return (
     <div className="px-6 py-12 flex flex-col gap-14">
       <ContactHeading />
-      <div className="flex w-full gap-20 ">
-        <div className=" w-1/2">
+      <div className="flex w-full justify-between gap-10 xl:flex-col ">
+        <div className=" w-1/2 xl:w-full xl:order-2">
           <Map />
         </div>
-        <div className="w-1/2 flex flex-col gap-16">
+        <div className="w-1/2 flex flex-col gap-16 xl:w-full xl:order-1">
           <MessageForm />
           <ContactDetails />
         </div>

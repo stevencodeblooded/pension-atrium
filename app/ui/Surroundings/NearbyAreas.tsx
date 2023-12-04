@@ -3,8 +3,8 @@ import Image from "next/image"
 const NearbyAreas = () => {
   return (
     <div className="flex flex-col gap-16">
-      <div className="flex gap-16">
-        <Image src={'/beautiful-city-1.jpg'} alt="beautiful-city-1" width={400} height={300} className="rounded-md"/>
+      <div className="flex gap-16 md:flex-col md:gap-2">
+        <Image src={'/beautiful-city-1.jpg'} alt="beautiful-city-1" width={400} height={300} className="rounded-md md:w-full"/>
         <section className=" mt-10">
           <h2 className="text-xl font-semibold mb-4 text-blue-900">Trutnov city Center</h2>
           <p>Trutnov, surrounded by the Krkonoše Mountains, is a city filled with history and nature. Discover its historic sites,
@@ -13,8 +13,8 @@ const NearbyAreas = () => {
         </section>
       </div>
 
-      <div className="flex gap-16">
-        <Image src={'/beautiful-city-2.jpg'} alt="beautiful-city-2" width={400} height={300} className="rounded-md"/>
+      <div className="flex gap-16 md:flex-col md:gap-2">
+        <Image src={'/beautiful-city-2.jpg'} alt="beautiful-city-2" width={400} height={300} className="rounded-md md:w-full"/>
         <section className=" mt-10">
           <h2 className="text-xl font-semibold mb-4 text-blue-900">Adršpach - Teplice rocks</h2>
           <p>These unique sandstone rock formations are located just a short drive from Trutnov. They offer a fantastic hiking
@@ -22,8 +22,8 @@ const NearbyAreas = () => {
         </section>
       </div>
 
-      <div className="flex gap-16">
-        <Image src={'/beautiful-city-3.jpg'} alt="beautiful-city-3" width={400} height={300} className="rounded-md"/>
+      <div className="flex gap-16 md:flex-col md:gap-2">
+        <Image src={'/beautiful-city-3.jpg'} alt="beautiful-city-3" width={400} height={300} className="rounded-md md:w-full"/>
         <section className=" mt-10">
           <h2 className="text-xl font-semibold mb-4 text-blue-900">ZOO Dvůr Králové</h2>
           <p>ZOO Dvůr Králové is a renowned zoological garden located near Trutnov, Czech Republic. It is one of the largest
@@ -34,8 +34,8 @@ const NearbyAreas = () => {
         </section>
       </div>
 
-      <div className="flex gap-16">
-        <Image src={'/beautiful-city-4.jpg'} alt="beautiful-city-4" width={400} height={300} className="rounded-md"/>
+      <div className="flex gap-16 md:flex-col md:gap-2">
+        <Image src={'/beautiful-city-4.jpg'} alt="beautiful-city-4" width={400} height={300} className="rounded-md md:w-full"/>
         <section className=" mt-10">
           <h2 className="text-xl font-semibold mb-4 text-blue-900">Dolce Pond</h2>
           <p>Dolce Pond is a peaceful and scenic spot near Trutnov, Czech Republic. It's a great place for nature lovers to enjoy
