@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <div className="px-6 py-12 flex flex-col gap-14">
       <ContactHeading />
-      <div className="flex gap-20 w-full">
+      <div className="flex w-full gap-20 ">
         <div className=" w-1/2">
           <Map />
         </div>

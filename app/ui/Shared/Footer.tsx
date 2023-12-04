@@ -4,7 +4,7 @@ import { FaInstagramSquare, FaFacebook } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="flex flex-wrap w-full justify-between">
+    <div className="flex flex-wrap w-full justify-between gap-10">
       <div>
         <Link href={'/'}>
           <Image src={'/pension_atrium_footer-logo.png'} alt="pension atrium footer-logo" width={100} height={100}/>
