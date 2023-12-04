@@ -38,8 +38,8 @@ const Navbar = () => {
 
         {
           menuMobile && (
-            <ul className='absolute top-0 rounded-lg flex flex-col items-center gap-6 py-6 bg-blue-400 w-full '>
-              <li><Link href={'/'} onClick={handleCloseMenu} className={`font-semibold `}>Home</Link></li>
+            <ul className='absolute top-0 rounded-lg flex flex-col items-center gap-6 py-24 bg-blue-400 w-full '>
+              <li><Link href={'/'} onClick={handleCloseMenu} className={`font-semibold ${pathname === '/' ? 'bg-blue-100 text-blue-900 font-semibold rounded-md px-3 py-2' : ''}`}>Home</Link></li>
               <li><Link href={'/Accommodation'} onClick={handleCloseMenu} className={`font-semibold ${pathname === '/Accommodation' ? 'bg-blue-100 text-blue-900 font-semibold rounded-md px-3 py-2' : ''}`}>Accommodation</Link></li>
               <li><Link href={'/Services'} onClick={handleCloseMenu}  className={`font-semibold ${pathname === '/Services' ? 'bg-blue-100 text-blue-900 font-semibold rounded-md px-3 py-2' : ''}`}>Services</Link></li>
               <li><Link href={'/Surroundings'} onClick={handleCloseMenu}  className={`font-semibold ${pathname === '/Surroundings' ? 'bg-blue-100 text-blue-900 font-semibold rounded-md px-3 py-2' : ''}`}>Surroundings</Link></li>
@@ -55,6 +55,7 @@ const Navbar = () => {
               <li>
                 <button type="button" onClick={handleCloseMenu}  className="bg-blue-900 text-gray-50 font-semibold rounded-md px-3 py-2">Book Now</button>
               </li>
+              <li className=" right-4 underline cursor-pointer hover:font-semibold" onClick={handleCloseMenu}>Close</li>
             </ul>
           )
         }

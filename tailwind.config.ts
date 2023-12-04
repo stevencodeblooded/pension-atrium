@@ -22,7 +22,7 @@ const config: Config = {
       // 'lg': {'max': '1024px'},
       'lg': {'max': '999px'},
 
-      'md': {'max': '768px'},
+      'md': {'max': '868px'},
 
       'sm': {'max': '640px'},
     }

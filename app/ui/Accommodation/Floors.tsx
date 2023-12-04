@@ -5,17 +5,15 @@ const Floors = () => {
   return (
     <div className="mb-20 flex flex-col gap-8">
       <div className="">
-        <h1 className="text-2xl font-semibold mb-4 text-blue-900">Ground Floor</h1>
+        <h1 className="text-2xl font-semibold mb-4 text-blue-900 lg:text-center">Ground Floor</h1>
         <div className="flex flex-col gap-4 ">
-          <p className="text-sm">first floor - 30 beds, meeting room and kitchen wheelchair accessible.</p>
-          <div className="flex justify-between items-center bg-blue-50 hover:bg-blue-100 p-4 rounded-lg">
-            <Image src={'/beautiful-city-1.jpg'} alt="beautiful-city" width={200} height={100} className="rounded-lg" />
+          <p className="text-sm lg:text-center">first floor - 30 beds, meeting room and kitchen wheelchair accessible.</p>
+          <div className="flex justify-between gap-4 items-center bg-blue-50 hover:bg-blue-100 p-4 rounded-lg md:flex-col">
+            <Image src={'/beautiful-city-1.jpg'} alt="beautiful-city" width={200} height={100} className="rounded-lg md:w-full" />
             <section className="flex flex-col gap-3">
               <p className="font-semibold">1 Bed Room</p>
               <p className="flex items-center">1 <span><FaPerson /></span></p>
             </section>
-
-            <hr className="" />
 
             <section className="flex flex-col gap-3">
               <p className="font-semibold">500 Kč</p>
@@ -42,17 +40,15 @@ const Floors = () => {
       </div>
 
       <div className="">
-        <h1 className="text-2xl font-semibold mb-4 text-blue-900">First Floor</h1>
+        <h1 className="text-2xl font-semibold mb-4 text-blue-900 lg:text-center">First Floor</h1>
         <div className="flex flex-col gap-4 ">
-          <p className="text-sm">first floor - 30 beds, meeting room and kitchen wheelchair accessible.</p>
-          <div className="flex justify-between items-center bg-blue-50 hover:bg-blue-100 p-4 rounded-lg">
-            <Image src={'/beautiful-city-2.jpg'} alt="beautiful-city" width={200} height={100} className="rounded-lg" />
+          <p className="text-sm lg:text-center">first floor - 30 beds, meeting room and kitchen wheelchair accessible.</p>
+          <div className="flex justify-between items-center bg-blue-50 hover:bg-blue-100 p-4 rounded-lg md:flex-col">
+            <Image src={'/beautiful-city-2.jpg'} alt="beautiful-city" width={200} height={100} className="rounded-lg md:w-full" />
             <section className="flex flex-col gap-3">
               <p className="font-semibold">1 Bed Room</p>
               <p className="flex items-center">1 <span><FaPerson /></span></p>
             </section>
-
-            <hr className="" />
 
             <section className="flex flex-col gap-3">
               <p className="font-semibold">500 Kč</p>
